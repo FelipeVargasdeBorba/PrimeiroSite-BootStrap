@@ -1,0 +1,96 @@
+#produtos,
+#contato {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.custom-border {
+    border-bottom: 1px solid #00000030;
+}
+
+.nav-link:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.bloco-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 80px auto;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.item-categoria {
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-categoria img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.item-categoria:hover img {
+    transform: scale(1.05);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#produtos {
+    scroll-margin-top: 10vh;
+}
+
+.faq-section {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.faq-title {
+    font-weight: 800;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+.accordion-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+}
+
+.accordion-button {
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: #e2e2e2;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
+
+.accordion-body {
+    color: #e2e2e2;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 0;
+}
